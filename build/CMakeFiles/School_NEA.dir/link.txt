@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/School_NEA.dir/src/main.cpp.o CMakeFiles/School_NEA.dir/src/App.cpp.o -o School_NEA  -Wl,-rpath,/usr/local/lib: /usr/local/lib/libsfml-graphics.so.2.5.1 /usr/local/lib/libsfml-window.so.2.5.1 /usr/local/lib/libsfml-system.so.2.5.1 

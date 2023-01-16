@@ -1,0 +1,7 @@
+#ifndef CONFIG_H_IN_School_NEA
+#define CONFIG_H_IN_School_NEA
+
+#define PROJECT_VERSION_MAJOR @School_NEA_VERSION_MAJOR@ 
+#define PROJECT_VERSION_MINOR @School_NEA_VERSION_MINOR@ 
+
+#endif
