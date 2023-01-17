@@ -1,7 +1,7 @@
 CMakeFiles/School_NEA.dir/src/App.cpp.o: \
- /home/alan/top_secret/cpp/LearnSFML/School_NEA/src/App.cpp \
+ /home/alan/top_secret/cpp/NEA/School_NEA/src/App.cpp \
  /usr/include/stdc-predef.h \
- /home/alan/top_secret/cpp/LearnSFML/School_NEA/include/NEA/App.h \
+ /home/alan/top_secret/cpp/NEA/School_NEA/include/NEA/App.h \
  /usr/local/include/SFML/Graphics.hpp /usr/local/include/SFML/Window.hpp \
  /usr/local/include/SFML/System.hpp /usr/local/include/SFML/Config.hpp \
  /usr/local/include/SFML/System/Clock.hpp \

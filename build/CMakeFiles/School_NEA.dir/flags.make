@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/alan/top_secret/cpp/LearnSFML/School_NEA/include -I/home/alan/top_secret/cpp/LearnSFML/School_NEA/build
+CXX_INCLUDES = -I/home/alan/top_secret/cpp/NEA/School_NEA/include -I/home/alan/top_secret/cpp/NEA/School_NEA/build
 
 CXX_FLAGS = -g -std=c++17
 

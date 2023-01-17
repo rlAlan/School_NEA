@@ -1,12 +1,12 @@
 [
 {
-  "directory": "/home/alan/top_secret/cpp/LearnSFML/School_NEA/build",
-  "command": "/usr/bin/c++  -I/home/alan/top_secret/cpp/LearnSFML/School_NEA/include -I/home/alan/top_secret/cpp/LearnSFML/School_NEA/build -g -std=c++17 -o CMakeFiles/School_NEA.dir/src/main.cpp.o -c /home/alan/top_secret/cpp/LearnSFML/School_NEA/src/main.cpp",
-  "file": "/home/alan/top_secret/cpp/LearnSFML/School_NEA/src/main.cpp"
+  "directory": "/home/alan/top_secret/cpp/NEA/School_NEA/build",
+  "command": "/usr/bin/c++  -I/home/alan/top_secret/cpp/NEA/School_NEA/include -I/home/alan/top_secret/cpp/NEA/School_NEA/build -g -std=c++17 -o CMakeFiles/School_NEA.dir/src/main.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/src/main.cpp",
+  "file": "/home/alan/top_secret/cpp/NEA/School_NEA/src/main.cpp"
 },
 {
-  "directory": "/home/alan/top_secret/cpp/LearnSFML/School_NEA/build",
-  "command": "/usr/bin/c++  -I/home/alan/top_secret/cpp/LearnSFML/School_NEA/include -I/home/alan/top_secret/cpp/LearnSFML/School_NEA/build -g -std=c++17 -o CMakeFiles/School_NEA.dir/src/App.cpp.o -c /home/alan/top_secret/cpp/LearnSFML/School_NEA/src/App.cpp",
-  "file": "/home/alan/top_secret/cpp/LearnSFML/School_NEA/src/App.cpp"
+  "directory": "/home/alan/top_secret/cpp/NEA/School_NEA/build",
+  "command": "/usr/bin/c++  -I/home/alan/top_secret/cpp/NEA/School_NEA/include -I/home/alan/top_secret/cpp/NEA/School_NEA/build -g -std=c++17 -o CMakeFiles/School_NEA.dir/src/App.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/src/App.cpp",
+  "file": "/home/alan/top_secret/cpp/NEA/School_NEA/src/App.cpp"
 }
 ]

@@ -7,11 +7,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/alan/top_secret/cpp/LearnSFML/School_NEA/CMakeLists.txt"
+  "/home/alan/top_secret/cpp/NEA/School_NEA/CMakeLists.txt"
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
-  "/home/alan/top_secret/cpp/LearnSFML/School_NEA/config.h.in"
+  "/home/alan/top_secret/cpp/NEA/School_NEA/config.h.in"
   "/usr/local/lib/cmake/SFML/SFMLConfig.cmake"
   "/usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake"
   "/usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake"

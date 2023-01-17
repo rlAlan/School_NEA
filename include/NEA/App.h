@@ -6,7 +6,7 @@
 
 class App{
     public:
-        App();
+        App(unsigned int, unsigned int);
         void run();
 
     private:
@@ -15,7 +15,7 @@ class App{
         void update();
 
     private:
-        sf::RenderWindow mWindow;
+        sf::RenderWindow mRWindow;
         sf::CircleShape mPlayer;
 };
 

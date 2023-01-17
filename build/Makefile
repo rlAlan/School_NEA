@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alan/top_secret/cpp/LearnSFML/School_NEA
+CMAKE_SOURCE_DIR = /home/alan/top_secret/cpp/NEA/School_NEA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alan/top_secret/cpp/LearnSFML/School_NEA/build
+CMAKE_BINARY_DIR = /home/alan/top_secret/cpp/NEA/School_NEA/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alan/top_secret/cpp/LearnSFML/School_NEA/build/CMakeFiles /home/alan/top_secret/cpp/LearnSFML/School_NEA/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles /home/alan/top_secret/cpp/NEA/School_NEA/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alan/top_secret/cpp/LearnSFML/School_NEA/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
