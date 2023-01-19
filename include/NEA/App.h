@@ -4,6 +4,14 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 
+
+struct mIsMoving{
+    bool Up     : 2;
+    bool Down   : 2;
+    bool Left   : 2;
+    bool Right  : 2;
+};
+
 class App{
     public:
         App(unsigned int, unsigned int);
@@ -13,11 +21,15 @@ class App{
         void proccessEvents();
         void render();
         void update();
+        void handlePlayerInput(sf::Keyboard::Key,bool);
 
     private:
+
         sf::RenderWindow mRWindow;
         sf::CircleShape mPlayer;
+        mIsMoving mPlayerMove;
 };
+
 
 
 #endif
