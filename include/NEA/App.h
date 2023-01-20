@@ -20,14 +20,14 @@ class App{
     private:
         void proccessEvents();
         void render();
-        void update();
-        void handlePlayerInput(sf::Keyboard::Key,bool);
+        void update(sf::Time);
+        void handleUserInput(sf::Keyboard::Key,bool);
 
     private:
 
-        sf::RenderWindow mRWindow;
-        sf::CircleShape mPlayer;
-        mIsMoving mPlayerMove;
+        sf::RenderWindow mWindow;
+        sf::CircleShape mUser;
+        mIsMoving mUserMove;
 };
 
 

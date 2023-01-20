@@ -16,14 +16,25 @@ find_package(SFML 2.5
         COMPONENTS
             system window graphics network audio
         REQUIRED)
+find_package(OpenGL REQUIRED)
 
-    add_executable(School_NEA src/main.cpp src/App.cpp)
-    target_include_directories(School_NEA
+    add_executable(${PROJECT_NAME}
+        ./src/main.cpp
+        ./src/App.cpp
+
+        ./include/imgui-sfml/imgui-SFML.cpp
+
+        ./include/imgui/imgui.cpp
+        ./include/imgui/imgui_draw.cpp
+        ./include/imgui/imgui_tables.cpp
+        ./include/imgui/imgui_widgets.cpp
+        )
+    target_include_directories(${PROJECT_NAME}
         PUBLIC "include/" 
         PRIVATE "${PROJECT_BINARY_DIR}"
         # PRIVATE "${PROJECT_SOURCE_DIR}/NEA")
         )
 
-target_link_libraries(School_NEA sfml-window sfml-graphics)
+    target_link_libraries(${PROJECT_NAME} ${OPENGL_LIBRARIES} sfml-window sfml-graphics)
 
-install(TARGETS School_NEA DESTINATION bin)
+install(TARGETS ${PROJECT_NAME} DESTINATION bin)

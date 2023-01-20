@@ -81,12 +81,12 @@ clean: CMakeFiles/School_NEA.dir/clean
 CMakeFiles/School_NEA.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles --progress-num=1,2,3 "Built target School_NEA"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target School_NEA"
 .PHONY : CMakeFiles/School_NEA.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/School_NEA.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/School_NEA.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles 0
 .PHONY : CMakeFiles/School_NEA.dir/rule

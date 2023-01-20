@@ -1,59 +1,67 @@
 #include <NEA/App.h>
+#include <SFML/System/Time.hpp>
 #include <SFML/Window/Keyboard.hpp>
 
 
 App::App(unsigned int width, unsigned int height)
-    : mRWindow({width,height}, "My App")
-    , mPlayer(20)
+    : mWindow({width,height}, "My App")
+    , mUser(20)
 {
 
-    mRWindow.setFramerateLimit(60);
+    mWindow.setFramerateLimit(60);
 
-    //tmp default player
-    mPlayer.setRadius(20);
-    mPlayer.setPosition(400,400);
-    mPlayer.setFillColor(sf::Color::Cyan);
+    //tmp default User
+    mUser.setRadius(20);
+    mUser.setPosition(400,400);
+    mUser.setFillColor(sf::Color::Cyan);
 
 }
 
 
 void App::run(){
-    while(mRWindow.isOpen()){
+    sf::Clock clock;
+    sf::Time timeSinceLastUpdate = sf::Time::Zero;
+    sf::Time timePerFrame{sf::seconds(1.0f / 60.0f)};
+    while(mWindow.isOpen()){
         proccessEvents();
-        update();
+        timeSinceLastUpdate += clock.restart();
+        while(timeSinceLastUpdate > timePerFrame){
+            timeSinceLastUpdate -= timePerFrame;
+            proccessEvents();
+            update(timePerFrame);
+        }
         render();
     }
 }
 
-void App::update(){
-// nothing to update for now
+void App::update(sf::Time dt){
     sf::Vector2f movement{0.0f,0.0f};
-    sf::Vector2f velocity{5,5};
-    if(mPlayerMove.Up)
-        movement.y -= velocity.y;
-    if(mPlayerMove.Down)
-        movement.y += velocity.y;
-    if(mPlayerMove.Left)
-        movement.x -= velocity.x;
-    if(mPlayerMove.Right)
-        movement.x += velocity.x;
-    mPlayer.move(movement);
+    sf::Vector2f UserSpeed{200,200};
+    if(mUserMove.Up)
+        movement.y -= UserSpeed.y;
+    if(mUserMove.Down)
+        movement.y += UserSpeed.y;
+    if(mUserMove.Left)
+        movement.x -= UserSpeed.x;
+    if(mUserMove.Right)
+        movement.x += UserSpeed.x;
+    mUser.move(movement*dt.asSeconds());
 }
 
 
 void App::proccessEvents(){
     sf::Event event;
-    while(mRWindow.pollEvent(event)){
+    while(mWindow.pollEvent(event)){
         switch(event.type)
         {
             case sf::Event::KeyPressed:
-                handlePlayerInput(event.key.code, true);
+                handleUserInput(event.key.code, true);
                 break;
             case sf::Event::KeyReleased:
-                handlePlayerInput(event.key.code, false);
+                handleUserInput(event.key.code, false);
                 break;
             case sf::Event::Closed:
-                mRWindow.close();
+                mWindow.close();
             default:
                 break;
         }
@@ -62,25 +70,25 @@ void App::proccessEvents(){
 
 
 void App::render(){
-        mRWindow.clear(sf::Color::Black);
-        mRWindow.draw(mPlayer);
-        mRWindow.display();
+        mWindow.clear(sf::Color::Black);
+        mWindow.draw(mUser);
+        mWindow.display();
 }
 
 
-void App::handlePlayerInput(sf::Keyboard::Key key,bool isPressed){
+void App::handleUserInput(sf::Keyboard::Key key,bool isPressed){
     switch(key){
         case sf::Keyboard::W:
-            mPlayerMove.Up = isPressed;
+            mUserMove.Up = isPressed;
             break;
         case sf::Keyboard::S:
-            mPlayerMove.Down = isPressed;
+            mUserMove.Down = isPressed;
             break; 
         case sf::Keyboard::D:
-            mPlayerMove.Right = isPressed;
+            mUserMove.Right = isPressed;
             break;
         case sf::Keyboard::A:
-            mPlayerMove.Left = isPressed;
+            mUserMove.Left = isPressed;
             break;
         default:
             break;

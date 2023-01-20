@@ -174,6 +174,126 @@ School_NEA/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/build
 .PHONY : School_NEA/fast
 
+include/imgui-sfml/imgui-SFML.o: include/imgui-sfml/imgui-SFML.cpp.o
+.PHONY : include/imgui-sfml/imgui-SFML.o
+
+# target to build an object file
+include/imgui-sfml/imgui-SFML.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.o
+.PHONY : include/imgui-sfml/imgui-SFML.cpp.o
+
+include/imgui-sfml/imgui-SFML.i: include/imgui-sfml/imgui-SFML.cpp.i
+.PHONY : include/imgui-sfml/imgui-SFML.i
+
+# target to preprocess a source file
+include/imgui-sfml/imgui-SFML.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.i
+.PHONY : include/imgui-sfml/imgui-SFML.cpp.i
+
+include/imgui-sfml/imgui-SFML.s: include/imgui-sfml/imgui-SFML.cpp.s
+.PHONY : include/imgui-sfml/imgui-SFML.s
+
+# target to generate assembly for a file
+include/imgui-sfml/imgui-SFML.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.s
+.PHONY : include/imgui-sfml/imgui-SFML.cpp.s
+
+include/imgui/imgui.o: include/imgui/imgui.cpp.o
+.PHONY : include/imgui/imgui.o
+
+# target to build an object file
+include/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.o
+.PHONY : include/imgui/imgui.cpp.o
+
+include/imgui/imgui.i: include/imgui/imgui.cpp.i
+.PHONY : include/imgui/imgui.i
+
+# target to preprocess a source file
+include/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.i
+.PHONY : include/imgui/imgui.cpp.i
+
+include/imgui/imgui.s: include/imgui/imgui.cpp.s
+.PHONY : include/imgui/imgui.s
+
+# target to generate assembly for a file
+include/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.s
+.PHONY : include/imgui/imgui.cpp.s
+
+include/imgui/imgui_draw.o: include/imgui/imgui_draw.cpp.o
+.PHONY : include/imgui/imgui_draw.o
+
+# target to build an object file
+include/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.o
+.PHONY : include/imgui/imgui_draw.cpp.o
+
+include/imgui/imgui_draw.i: include/imgui/imgui_draw.cpp.i
+.PHONY : include/imgui/imgui_draw.i
+
+# target to preprocess a source file
+include/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.i
+.PHONY : include/imgui/imgui_draw.cpp.i
+
+include/imgui/imgui_draw.s: include/imgui/imgui_draw.cpp.s
+.PHONY : include/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+include/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.s
+.PHONY : include/imgui/imgui_draw.cpp.s
+
+include/imgui/imgui_tables.o: include/imgui/imgui_tables.cpp.o
+.PHONY : include/imgui/imgui_tables.o
+
+# target to build an object file
+include/imgui/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.o
+.PHONY : include/imgui/imgui_tables.cpp.o
+
+include/imgui/imgui_tables.i: include/imgui/imgui_tables.cpp.i
+.PHONY : include/imgui/imgui_tables.i
+
+# target to preprocess a source file
+include/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.i
+.PHONY : include/imgui/imgui_tables.cpp.i
+
+include/imgui/imgui_tables.s: include/imgui/imgui_tables.cpp.s
+.PHONY : include/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+include/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.s
+.PHONY : include/imgui/imgui_tables.cpp.s
+
+include/imgui/imgui_widgets.o: include/imgui/imgui_widgets.cpp.o
+.PHONY : include/imgui/imgui_widgets.o
+
+# target to build an object file
+include/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.o
+.PHONY : include/imgui/imgui_widgets.cpp.o
+
+include/imgui/imgui_widgets.i: include/imgui/imgui_widgets.cpp.i
+.PHONY : include/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+include/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.i
+.PHONY : include/imgui/imgui_widgets.cpp.i
+
+include/imgui/imgui_widgets.s: include/imgui/imgui_widgets.cpp.s
+.PHONY : include/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+include/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/School_NEA.dir/build.make CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.s
+.PHONY : include/imgui/imgui_widgets.cpp.s
+
 src/App.o: src/App.cpp.o
 .PHONY : src/App.o
 
@@ -235,6 +355,21 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... School_NEA"
+	@echo "... include/imgui-sfml/imgui-SFML.o"
+	@echo "... include/imgui-sfml/imgui-SFML.i"
+	@echo "... include/imgui-sfml/imgui-SFML.s"
+	@echo "... include/imgui/imgui.o"
+	@echo "... include/imgui/imgui.i"
+	@echo "... include/imgui/imgui.s"
+	@echo "... include/imgui/imgui_draw.o"
+	@echo "... include/imgui/imgui_draw.i"
+	@echo "... include/imgui/imgui_draw.s"
+	@echo "... include/imgui/imgui_tables.o"
+	@echo "... include/imgui/imgui_tables.i"
+	@echo "... include/imgui/imgui_tables.s"
+	@echo "... include/imgui/imgui_widgets.o"
+	@echo "... include/imgui/imgui_widgets.i"
+	@echo "... include/imgui/imgui_widgets.s"
 	@echo "... src/App.o"
 	@echo "... src/App.i"
 	@echo "... src/App.s"

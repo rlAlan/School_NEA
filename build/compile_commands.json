@@ -8,5 +8,30 @@
   "directory": "/home/alan/top_secret/cpp/NEA/School_NEA/build",
   "command": "/usr/bin/c++  -I/home/alan/top_secret/cpp/NEA/School_NEA/include -I/home/alan/top_secret/cpp/NEA/School_NEA/build -g -std=c++17 -o CMakeFiles/School_NEA.dir/src/App.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/src/App.cpp",
   "file": "/home/alan/top_secret/cpp/NEA/School_NEA/src/App.cpp"
+},
+{
+  "directory": "/home/alan/top_secret/cpp/NEA/School_NEA/build",
+  "command": "/usr/bin/c++  -I/home/alan/top_secret/cpp/NEA/School_NEA/include -I/home/alan/top_secret/cpp/NEA/School_NEA/build -g -std=c++17 -o CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui-sfml/imgui-SFML.cpp",
+  "file": "/home/alan/top_secret/cpp/NEA/School_NEA/include/imgui-sfml/imgui-SFML.cpp"
+},
+{
+  "directory": "/home/alan/top_secret/cpp/NEA/School_NEA/build",
+  "command": "/usr/bin/c++  -I/home/alan/top_secret/cpp/NEA/School_NEA/include -I/home/alan/top_secret/cpp/NEA/School_NEA/build -g -std=c++17 -o CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui.cpp",
+  "file": "/home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui.cpp"
+},
+{
+  "directory": "/home/alan/top_secret/cpp/NEA/School_NEA/build",
+  "command": "/usr/bin/c++  -I/home/alan/top_secret/cpp/NEA/School_NEA/include -I/home/alan/top_secret/cpp/NEA/School_NEA/build -g -std=c++17 -o CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_draw.cpp",
+  "file": "/home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/home/alan/top_secret/cpp/NEA/School_NEA/build",
+  "command": "/usr/bin/c++  -I/home/alan/top_secret/cpp/NEA/School_NEA/include -I/home/alan/top_secret/cpp/NEA/School_NEA/build -g -std=c++17 -o CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_tables.cpp",
+  "file": "/home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_tables.cpp"
+},
+{
+  "directory": "/home/alan/top_secret/cpp/NEA/School_NEA/build",
+  "command": "/usr/bin/c++  -I/home/alan/top_secret/cpp/NEA/School_NEA/include -I/home/alan/top_secret/cpp/NEA/School_NEA/build -g -std=c++17 -o CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_widgets.cpp",
+  "file": "/home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_widgets.cpp"
 }
 ]

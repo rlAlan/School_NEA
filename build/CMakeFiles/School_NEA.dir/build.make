@@ -97,22 +97,105 @@ CMakeFiles/School_NEA.dir/src/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/School_NEA.dir/src/App.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/top_secret/cpp/NEA/School_NEA/src/App.cpp -o CMakeFiles/School_NEA.dir/src/App.cpp.s
 
+CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.o: CMakeFiles/School_NEA.dir/flags.make
+CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.o: /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui-sfml/imgui-SFML.cpp
+CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.o: CMakeFiles/School_NEA.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.o -MF CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.o.d -o CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui-sfml/imgui-SFML.cpp
+
+CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui-sfml/imgui-SFML.cpp > CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.i
+
+CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui-sfml/imgui-SFML.cpp -o CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.s
+
+CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.o: CMakeFiles/School_NEA.dir/flags.make
+CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.o: /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui.cpp
+CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.o: CMakeFiles/School_NEA.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.o -MF CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.o.d -o CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui.cpp
+
+CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui.cpp > CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.i
+
+CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui.cpp -o CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.s
+
+CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.o: CMakeFiles/School_NEA.dir/flags.make
+CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.o: /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_draw.cpp
+CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.o: CMakeFiles/School_NEA.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.o -MF CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.o.d -o CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_draw.cpp
+
+CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_draw.cpp > CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.i
+
+CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_draw.cpp -o CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.s
+
+CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.o: CMakeFiles/School_NEA.dir/flags.make
+CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.o: /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_tables.cpp
+CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.o: CMakeFiles/School_NEA.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.o -MF CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.o.d -o CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_tables.cpp
+
+CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_tables.cpp > CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.i
+
+CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_tables.cpp -o CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.s
+
+CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.o: CMakeFiles/School_NEA.dir/flags.make
+CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.o: /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_widgets.cpp
+CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.o: CMakeFiles/School_NEA.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.o -MF CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.o -c /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_widgets.cpp
+
+CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_widgets.cpp > CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alan/top_secret/cpp/NEA/School_NEA/include/imgui/imgui_widgets.cpp -o CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.s
+
 # Object files for target School_NEA
 School_NEA_OBJECTS = \
 "CMakeFiles/School_NEA.dir/src/main.cpp.o" \
-"CMakeFiles/School_NEA.dir/src/App.cpp.o"
+"CMakeFiles/School_NEA.dir/src/App.cpp.o" \
+"CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.o" \
+"CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.o" \
+"CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.o"
 
 # External object files for target School_NEA
 School_NEA_EXTERNAL_OBJECTS =
 
 School_NEA: CMakeFiles/School_NEA.dir/src/main.cpp.o
 School_NEA: CMakeFiles/School_NEA.dir/src/App.cpp.o
+School_NEA: CMakeFiles/School_NEA.dir/include/imgui-sfml/imgui-SFML.cpp.o
+School_NEA: CMakeFiles/School_NEA.dir/include/imgui/imgui.cpp.o
+School_NEA: CMakeFiles/School_NEA.dir/include/imgui/imgui_draw.cpp.o
+School_NEA: CMakeFiles/School_NEA.dir/include/imgui/imgui_tables.cpp.o
+School_NEA: CMakeFiles/School_NEA.dir/include/imgui/imgui_widgets.cpp.o
 School_NEA: CMakeFiles/School_NEA.dir/build.make
+School_NEA: /usr/lib/libOpenGL.so
+School_NEA: /usr/lib/libGLX.so
+School_NEA: /usr/lib/libGLU.so
 School_NEA: /usr/local/lib/libsfml-graphics.so.2.5.1
 School_NEA: /usr/local/lib/libsfml-window.so.2.5.1
 School_NEA: /usr/local/lib/libsfml-system.so.2.5.1
 School_NEA: CMakeFiles/School_NEA.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable School_NEA"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alan/top_secret/cpp/NEA/School_NEA/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable School_NEA"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/School_NEA.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
